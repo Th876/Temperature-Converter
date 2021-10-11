@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <meta name="description" content="Temperature, Converter, Temperature converter, Celsius, Fahrenheit">
+    <meta name="author" content="Tahaylia Higgins">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="Images/favicon.png">
+</head>
+<body>
+    <header>
+        <h1 class="site-name">Temp Converter</h1> <!--Name of website-->
+    </header>
+    
+    <div>
+        <h2 id="greeting"></h2>  <!--Works with JS to show greeting based on users' timezone-->
+    </div>
+    <p class="instruction">Enter a value in either field to convert temperature</p>
+    
+    <table class="center"> <!--table where users will enter data to convert-->
+        <tr>
+            <th>Fahrenheit</th> <!--degree number one-->
+            <th>Celsius</th>
+        </tr>
+        <tr>
+            <td><input type="text" name="Fahrenheit" id="fahrenheit" class="inputs"></td>
+            <td><input type="text" name="celsius" id="celsius" class="inputs"°C</td>
+        </tr>
+    </table>
+
+    <footer>
+        <p class="footer-text">Copyright © 2021 Tahaylia Higgins. All Rights Reserved.</p>
+    </footer>
+    <script src="convert.js"></script>
+    <script src="greeting.js"></script>
+</body>
+</html>
