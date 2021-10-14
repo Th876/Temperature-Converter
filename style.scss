@@ -1,0 +1,109 @@
+$mobile: 576px;
+
+/* Universal styles */
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    overflow-x: hidden;
+    margin: 0;
+    cursor: default;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  header {  /*Style page header*/
+      background-color:#000511;
+      padding: 1px;
+  }
+
+  h1 {  /*Style name of website*/
+      color: white;
+      font-family: 'Kameron', serif;
+      margin-left: 25px;
+  }
+
+  h2 {  /*Style the greeting of page*/
+    color: #84BFC3;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.75rem;
+    position: relative;
+    bottom: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.instruction {
+    color: #696969;
+    text-align: center;
+    position: relative;
+    margin-top: 250px;
+    font-size: 1.1rem;
+}
+.center { /*center table*/
+  margin: auto;
+}
+
+table, th { /*create table outline & style*/
+  border-collapse: collapse;
+  border: 1px solid#707070;
+  text-align: center;
+  color: #707070;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+td {
+background: #F6F6F6; /*color background of second row*/
+}
+
+/*Structure the size of the input boxes and give them background color*/
+input {
+align-items: center;
+margin: 15px 4px;
+padding: 2px 5px;
+width: 50%;
+background-color: #FFF5D6;
+}
+
+/*Style footer section*/
+  footer {
+      background-color:#1C1C1C;
+      color:#fff;
+      text-align: center;
+      padding: 1px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+
+  }
+
+  /*Responsive media query for mobile*/
+  @media (max-width: $mobile) {
+
+    header {  /*Style page header*/
+        background-color:#000511;
+        padding: 0.2px;
+    }
+  
+    h1 {  /*Style name of website*/
+        text-align: center;
+        font-size: 1.9rem;
+    }
+  
+    h2 {  /*Style the greeting of page*/
+      font-size: 1.75rem;
+      bottom: 270px;
+  }
+
+  /*Style footer section*/
+    footer {
+        font-size: 1rem;
+  
+    }
+    
+  }
+
+  
