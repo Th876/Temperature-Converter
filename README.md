@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Images/social-preview.gif" width="600px" height="328px">
+  <img src="Images/social_preview.gif" width="600px" height="328px">
 </p>
 <h1>Temperature Converter Website</h1>
 
