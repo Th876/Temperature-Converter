@@ -1,7 +1,7 @@
-<p align="center">
-  <img src="Images/social_preview.gif" width="600px" height="328px">
-</p>
-<h1>Temperature Converter Website</h1>
+<p align="center"><img src="Images/social_preview.gif" width="600px" height="328px">
+  &nbsp;&nbsp;&nbsp;&nbsp;<img src="Images/social-preview-mobile.gif" width="195" height="367px"></p>
+
+<h1>Temperature Converter Website <i>(Desktop & Mobile version)</i></h1>
 
 <h2>Overview</h2>
 <p>Website to convert fahrenheit to celsius and vice versa.</p> 
