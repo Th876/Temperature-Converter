@@ -1,3 +1,12 @@
+$pale-yellow: #FFF5D6;
+$bisque: #FFE4C4;
+$light-gray: #F6F6F6;
+$dim-gray: #696969;
+$dark-silver: #707070;
+$glacier: #84BFC3;
+$matte-black: #1C1C1C;
+$rich-black: #000511;
+
 /* Universal styles */
 body {
     font-family: "Roboto", sans-serif;
@@ -11,7 +20,7 @@ body {
   }
 
   header {  /*Style page header*/
-      background-color:#000511;
+      background-color: $rich-black;
       padding: 0.06rem;
   }
 
@@ -22,7 +31,7 @@ body {
   }
 
   h2 {  /*Style the greeting of page*/
-    color: #84BFC3;
+    color: $glacier;
     text-align: center;
     font-weight: 300;
     font-size: 1.75rem;
@@ -33,7 +42,7 @@ body {
 }
 
 .instruction {
-    color: #696969;
+    color: $dim-gray;
     text-align: center;
     position: relative;
     margin-top: 250px;
@@ -45,15 +54,15 @@ body {
 
 table, th { /*create table outline & style*/
   border-collapse: collapse;
-  border: 1px solid#707070;
+  border: 1px solid $dark-silver;
   text-align: center;
-  color: #707070;
+  color: $dark-silver;
   font-weight: 300;
   font-size: 1.2rem;
 }
 
 td {
-background: #F6F6F6; /*color background of second row*/
+background: $light-gray; /*color background of second row*/
 }
 
 /*Structure the size of the input boxes and give them background color*/
@@ -62,12 +71,12 @@ align-items: center;
 margin: 1.54rem 0.25rem;
 padding: 0.3rem 0.3rem;
 width: 50%;
-background-color: #FFF5D6;
+background-color: $pale-yellow;
 }
 
 /*Style footer section*/
   footer {
-      background-color:#1C1C1C;
+      background-color: $matte-black;
       color:#fff;
       text-align: center;
       padding: 0.06rem;
@@ -90,7 +99,6 @@ background-color: #FFF5D6;
     }
 
     .instruction {
-      color: #696969;
       margin-top: 100px;
       padding-bottom: 10px;
       font-size: 0.7rem;
@@ -103,11 +111,11 @@ background-color: #FFF5D6;
       padding-right: 1.56rem;
       padding-left: 1.56rem;
       width: 10%;
-      border: 0.70px solid#707070;
+      border: 0.70px solid $dark-silver;
     }
 
     td {
-      background: #F6F6F6; /*color background of second row*/
+      background: $light-gray; /*color background of second row*/
       font-size: 0.60rem;
     }
      
@@ -118,21 +126,21 @@ background-color: #FFF5D6;
       width: 45%;
       margin: 0.813rem 0.3rem;
       padding: 0.094rem 0.3rem;
-      background-color: #FFE4C4;
-      border: 0.80px solid#707070;
+      background-color: $bisque;
+      border: 0.80px solid $dark-silver;
     }
      
     #celsius {
       width: 55%;
       margin: 0.813rem 0.3rem;
       padding: 0.094rem 0.3rem;
-      background-color: #FFE4C4;
-      border: 0.80px solid#707070;
+      background-color: $bisque;
+      border: 0.80px solid $dark-silver;
     }
 
     /*Style footer section*/
     footer {
-      background-color:#1C1C1C;
+      background-color: $matte-black;
       font-size: 0.25rem;
       padding: 0.45rem;
 
@@ -143,7 +151,7 @@ background-color: #FFF5D6;
 @media screen and (min-width: 360px) and (max-width: 600px) {
  
   header {  /*Style page header*/
-      background-color:#000511;
+      background-color: $rich-black;
       padding: 0.2px;
   }
 
@@ -158,7 +166,6 @@ background-color: #FFF5D6;
   }
 
 .instruction {
-  color: #696969;
   text-align: center;
   position: relative;
   margin-top: 200px;
@@ -176,11 +183,11 @@ table, th { /*create table outline & style*/
   padding-right: 2.81rem;
   padding-left: 2.18rem;
   width: 50%;
-  border: 0.80px solid#707070;
+  border: 0.80px solid $dark-silver;
 }
 
 td {
-  background: #F6F6F6; /*color background of second row*/
+  background: $light-gray; /*color background of second row*/
   font-size: 0.80rem;
 }
 
@@ -191,16 +198,16 @@ td {
   width: 50%;
   margin: 1.125rem 0.3rem;
   padding: 0.18rem 0.3rem;
-  background-color: #FFE4C4;
-  border: 0.80px solid#707070;
+  background-color: $bisque;
+  border: 0.80px solid $dark-silver;
 }
 
 #celsius {
   width: 60%;
   margin: 1.125rem 0.3rem;
   padding: 0.18rem 0.3rem;
-  background-color: #FFE4C4;
-  border: 0.80px solid#707070;
+  background-color: $bisque;
+  border: 0.80px solid $dark-silver;
 }
 
 /*Style footer section*/
