@@ -1,9 +1,6 @@
-$mobile: 576px;
-
 /* Universal styles */
 body {
     font-family: "Roboto", sans-serif;
-    font-size: 1rem;
     overflow-x: hidden;
     margin: 0;
     cursor: default;
@@ -15,13 +12,13 @@ body {
 
   header {  /*Style page header*/
       background-color:#000511;
-      padding: 1px;
+      padding: 0.06rem;
   }
 
   h1 {  /*Style name of website*/
       color: white;
       font-family: 'Kameron', serif;
-      margin-left: 25px;
+      margin-left: 1.56rem;
   }
 
   h2 {  /*Style the greeting of page*/
@@ -62,8 +59,8 @@ background: #F6F6F6; /*color background of second row*/
 /*Structure the size of the input boxes and give them background color*/
 input {
 align-items: center;
-margin: 15px 4px;
-padding: 2px 5px;
+margin: 1.54rem 0.25rem;
+padding: 0.3rem 0.3rem;
 width: 50%;
 background-color: #FFF5D6;
 }
@@ -73,37 +70,142 @@ background-color: #FFF5D6;
       background-color:#1C1C1C;
       color:#fff;
       text-align: center;
-      padding: 1px;
+      padding: 0.06rem;
       position: absolute;
       bottom: 0;
       width: 100%;
-
   }
 
-  /*Responsive media query for mobile*/
-  @media (max-width: $mobile) {
-
-    header {  /*Style page header*/
-        background-color:#000511;
-        padding: 0.2px;
-    }
-  
+  /*Responsive media query for smallest mobile screensize*/
+  @media screen and (max-width: 320px) {
+    
     h1 {  /*Style name of website*/
-        text-align: center;
-        font-size: 1.9rem;
+      text-align: center;
+      font-size: 1rem;
     }
-  
+ 
     h2 {  /*Style the greeting of page*/
-      font-size: 1.75rem;
-      bottom: 270px;
-  }
+      font-size: 1rem;
+      bottom: 200px;
+    }
 
-  /*Style footer section*/
-    footer {
-        font-size: 1rem;
-  
+    .instruction {
+      color: #696969;
+      margin-top: 100px;
+      padding-bottom: 10px;
+      font-size: 0.7rem;
     }
     
+    table, th { /*create table outline & style*/
+      font-size: 0.75rem;
+      padding-top: 0.3rem;
+      padding-bottom: 0.3rem;
+      padding-right: 1.56rem;
+      padding-left: 1.56rem;
+      width: 10%;
+      border: 0.70px solid#707070;
+    }
+
+    td {
+      background: #F6F6F6; /*color background of second row*/
+      font-size: 0.60rem;
+    }
+     
+    /*Structure the size of the input boxes and give them background color*/
+     
+    #fahrenheit {
+      align-items: center;
+      width: 45%;
+      margin: 0.813rem 0.3rem;
+      padding: 0.094rem 0.3rem;
+      background-color: #FFE4C4;
+      border: 0.80px solid#707070;
+    }
+     
+    #celsius {
+      width: 55%;
+      margin: 0.813rem 0.3rem;
+      padding: 0.094rem 0.3rem;
+      background-color: #FFE4C4;
+      border: 0.80px solid#707070;
+    }
+
+    /*Style footer section*/
+    footer {
+      background-color:#1C1C1C;
+      font-size: 0.25rem;
+      padding: 0.45rem;
+
+  }
+}
+
+/*Responsive media query for mobile screensize*/
+@media screen and (min-width: 360px) and (max-width: 600px) {
+ 
+  header {  /*Style page header*/
+      background-color:#000511;
+      padding: 0.2px;
   }
 
-  
+  h1 {  /*Style name of website*/
+      text-align: center;
+      font-size: 1.7rem;
+  }
+
+  h2 {  /*Style the greeting of page*/
+    font-size: 1.35rem;
+    bottom: 250px;
+  }
+
+.instruction {
+  color: #696969;
+  text-align: center;
+  position: relative;
+  margin-top: 200px;
+  padding-bottom: 10px;
+  font-size: 0.75rem;
+}
+.center { /*center table*/
+  margin: auto;
+}
+
+table, th { /*create table outline & style*/
+  font-size: 0.90rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-right: 2.81rem;
+  padding-left: 2.18rem;
+  width: 50%;
+  border: 0.80px solid#707070;
+}
+
+td {
+  background: #F6F6F6; /*color background of second row*/
+  font-size: 0.80rem;
+}
+
+/*Structure the size of the input boxes and give them background color*/
+
+#fahrenheit {
+  align-items: center;
+  width: 50%;
+  margin: 1.125rem 0.3rem;
+  padding: 0.18rem 0.3rem;
+  background-color: #FFE4C4;
+  border: 0.80px solid#707070;
+}
+
+#celsius {
+  width: 60%;
+  margin: 1.125rem 0.3rem;
+  padding: 0.18rem 0.3rem;
+  background-color: #FFE4C4;
+  border: 0.80px solid#707070;
+}
+
+/*Style footer section*/
+footer {
+  padding: 0.125rem;
+  font-size: 0.75rem;
+}
+}
