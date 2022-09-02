@@ -1,6 +1,6 @@
-var greeting; //declare greeting variable
-var date = new Date(); //declare date variable and save to the value of new date object to get users' current date & time
-var hour = date.getHours(); //declare hour variable and save to the value of getHours()method to get the hour of the users' specified date which based on the local time
+let greeting; //declare greeting variable
+let date = new Date(); //declare date variable and save to the value of new date object to get users' current date & time
+let hour = date.getHours(); //declare hour variable and save to the value of getHours()method to get the hour of the users' specified date which based on the local time
 
 if (hour >=0 && hour < 12) { //Set condition so that greeting is relevant to the time of day
     greeting = "Good morning";
