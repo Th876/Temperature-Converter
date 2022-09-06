@@ -12,4 +12,4 @@ if (hour >=0 && hour < 12) { //Set condition so that greeting is relevant to the
     greeting = "Good night";
 }
 
-console.log("<h2>" + greeting ); //Write the greeting where the h2 tag is placed 
+document.write("<h2>" + greeting ); //Write the greeting where the h2 tag is placed 
